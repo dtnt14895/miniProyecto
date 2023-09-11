@@ -83,7 +83,7 @@ function Nav(props) {
               {props.searchForCity ? (
                 <div className="modal-body">
                   {props.city.map((e, i) => (
-                    <div key={i}>
+                    <div className="" key={i}>
                       <button className="btn-search-city"
                         onClick={() => {
                           props.setCiudad(e);
