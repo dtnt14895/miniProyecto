@@ -1,0 +1,180 @@
+.responsive-image {
+  border-radius: 0.75rem;
+  width: 100%;
+  width: 395px;
+  height: 269px;
+  border-radius: 24px;
+  margin: 1.5rem;
+}
+
+.contenedor {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-wrap: wrap;
+  margin-left: 8%;
+
+}
+
+.host {
+  padding-left: 0.75rem;
+  font-size: .75rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgb(0, 0, 0);
+  border-width: 1px;
+  line-height: 1rem;
+  padding-bottom: 0.5rem;
+  margin-right: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  font-weight: bold;
+
+}
+
+.botones-como-barra {
+  display: flex;
+  /* Usa flexbox para alinear los botones horizontalmente */
+  justify-content: flex-end;
+  /* Espacio uniforme entre los botones */
+  margin-right: 8%;
+  font-size: 100%;
+  font-family: inherit;
+}
+
+.btn-amplio {
+  flex: 1;
+  height: 75px;
+}
+
+.botones-como-barra button {
+  border: 1px solid #e5e7eb;
+  /* Elimina los bordes de los botones */
+  margin: 0;
+  /* Elimina los márgenes entre los botones */
+  padding: 10px 20px;
+  /* Añade relleno para dar espacio entre los botones */
+  background-color: #ffffff;
+  /* Cambia el color de fondo de los botones */
+  color: #000000;
+  /* Cambia el color del texto de los botones */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  /* Sombra inferior */
+}
+.material-symbols-outlined {
+  color: rgb(255, 87, 87);
+  margin-right: 0.75rem;
+  line-height: 1;
+  font-weight: 900;
+  /* Ajusta el grosor de línea (puede ser "normal", "bold", u otros valores) */
+}
+.material-symbols-outlined.location {
+  color: grey !important;
+}
+.material-symbols-outlined.location.guest {
+  font-size: 15px !important;
+}
+.modal-search{
+  background-color: rgb(255, 87, 87) !important;
+  color: #ffffff !important;
+  
+}
+.modal-body{
+  
+}
+.btn-search-city{
+  border: #ffffff;
+  margin: 1rem;
+}
+.btn-guest{
+  border: 1px solid #393939 ;
+  border-radius: 7px; 
+  width: 30px;
+  height: 30px;
+}
+.adult{
+  font-weight: 800;
+  font-size: medium;
+}
+.div{
+margin-left :36% ;
+}
+.chilOf{
+  margin-bottom: 2.5rem;
+}
+.buttons-src{
+  margin-top: 1rem;
+}
+
+
+.botones-como-barra button:first-child {
+  border-top-left-radius: 10px;
+  /* Aplica esquina redondeada superior izquierda al primer botón */
+  border-bottom-left-radius: 10px;
+  /* Aplica esquina redondeada inferior izquierda al primer botón */
+}
+
+.botones-como-barra button:last-child {
+  border-top-right-radius: 10px;
+  /* Aplica esquina redondeada superior derecha al último botón */
+  border-bottom-right-radius: 10px;
+  /* Aplica esquina redondeada inferior derecha al último botón */
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  position: absolute;
+  width: 10rem;
+  margin-left: 8%;
+}
+
+.imgCont {
+  box-sizing: border-box;
+  border: 0 solid #e5e7eb;
+}
+
+.head {
+  justify-content: space-between;
+}
+
+.stays {
+  font-size: 1.5rem;
+  margin-left: 8%;
+  line-height: 2rem;
+  font-weight: 700;
+  font-family: inherit;
+}
+
+.nStays {
+  font-weight: 500;
+  margin-right: 8%;
+}
+
+.navContent {
+  margin-top: 5%;
+  margin-bottom: 4rem;
+}
+
+.beds {
+  color: rgba(156, 163, 175);
+}
+
+.title {
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.textContent {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+}
+.footer{
+  font-weight: 500;
+  text-align: center;
+  color: rgba(156,163,175);
+  margin: 6rem;
+}
